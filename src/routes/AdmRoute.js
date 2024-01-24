@@ -1,5 +1,4 @@
 import express from "express";
-import { Adm } from "../model/AdmModel.js";
 import { insertAdm, getAllAdm, getAdmByEmail} from "../controllers/AdmController.js";
 const admRoute = express.Router();
 
